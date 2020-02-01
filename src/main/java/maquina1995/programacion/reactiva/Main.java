@@ -32,9 +32,6 @@ public class Main {
 		// resultante
 		.subscribe(System.out::println);
 
-//	Flux<Integer> flux2 = Flux.just(listaNumeros);
-//	flux2.filter(e -> e >= 5).map(e -> e + 1).subscribe(System.out::println);
-
     }
 
 }
